@@ -1,7 +1,7 @@
 @extends('frontend.master')
 @section('content')
 <div style="padding-top: 150px; padding-right:30px; padding-left:10px; padding-bottom:30px;">
-    <h5>Your Customize Booking Details</h5>
+    <h5>Your Booking Details</h5>
     <div style="padding-bottom: 30px;"></div>
     <table class="table">
         <thead>
@@ -28,8 +28,8 @@
             @endphp
             @foreach($customizeBookingDetails as $key => $booking)
             <tr>
-                <th scope="row">{{ $customizeBookingDetails + $key  }}</th>
-                <td>{{ $booking->transaction_id }}</td>
+            <th scope="row">{{ $startId + $key }}</th>
+            <td>{{ $booking->transaction_id }}</td>
                 <td>{{ $booking->event->name ?? 'N/A' }}</td>
                 <td>
                     @foreach($booking->foods as $food)

@@ -2,9 +2,9 @@
 
 @section('content')
 
-<h1>Customize Foods</h1>
+<h1>Foods</h1>
 
-<a href="{{route('admin.create.customize.food')}}" class="btn btn-success">Create Customize Food</a>
+<a href="{{route('admin.create.customize.food')}}" class="btn btn-success">Create Food</a>
 <br>
 <br>
 <form action="{{ route('admin.customize.food.search') }}" method="GET" class="mb-3">

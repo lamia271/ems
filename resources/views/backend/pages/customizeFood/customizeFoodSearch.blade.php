@@ -2,7 +2,7 @@
 
 @section('content')
 
-<h1>Customize Foods</h1>
+<h1>Foods</h1>
 <br>
 <br>
 <!-- Search form -->

@@ -47,47 +47,47 @@ use App\Models\Appointment;
             Route::get('/event/search', [EventController::class, 'eventSearch'])->name('admin.event.search');
             
             //Packages->
-            Route::get('/package/list', [PackageController::class, 'packageList'])->name('admin.package.list');
-            Route::get('/create/package', [PackageController::class, 'createPackage'])->name('admin.create.package');
-            Route::post('/package/store', [PackageController::class, 'packageStore'])->name('admin.package.store');
-            Route::get('/package/edit/{package_id}', [PackageController::class, 'packageEdit'])->name('admin.package.edit');
-            Route::put('/package/update/{package_id}', [PackageController::class, 'packageUpdate'])->name('admin.package.update');
-            Route::get('/package/delete/{package_id}', [PackageController::class, 'packageDelete'])->name('admin.package.delete');
-            Route::get('/packages/search', [PackageController::class, 'packageSearch'])->name('admin.package.search');
+            // Route::get('/package/list', [PackageController::class, 'packageList'])->name('admin.package.list');
+            // Route::get('/create/package', [PackageController::class, 'createPackage'])->name('admin.create.package');
+            // Route::post('/package/store', [PackageController::class, 'packageStore'])->name('admin.package.store');
+            // Route::get('/package/edit/{package_id}', [PackageController::class, 'packageEdit'])->name('admin.package.edit');
+            // Route::put('/package/update/{package_id}', [PackageController::class, 'packageUpdate'])->name('admin.package.update');
+            // Route::get('/package/delete/{package_id}', [PackageController::class, 'packageDelete'])->name('admin.package.delete');
+            // Route::get('/packages/search', [PackageController::class, 'packageSearch'])->name('admin.package.search');
 
-            //Foods->
-            Route::get('/food/list', [FoodController::class, 'foodList'])->name('admin.food.list');
-            Route::get('/create/food', [FoodController::class, 'createFood'])->name('admin.create.food');
-            Route::post('/food/store', [FoodController::class, 'foodStore'])->name('admin.food.store');
-            Route::get('/food/edit/{food_id}', [FoodController::class, 'foodEdit'])->name('admin.food.edit');
-            Route::put('/food/update/{food_id}', [FoodController::class, 'foodUpdate'])->name('admin.food.update');
-            Route::get('/food/delete/{food_id}', [FoodController::class, 'foodDelete'])->name('admin.food.delete');
-            Route::get('/food/search', [FoodController::class, 'foodSearch'])->name('admin.food.search');
+            // //Foods->
+            // Route::get('/food/list', [FoodController::class, 'foodList'])->name('admin.food.list');
+            // Route::get('/create/food', [FoodController::class, 'createFood'])->name('admin.create.food');
+            // Route::post('/food/store', [FoodController::class, 'foodStore'])->name('admin.food.store');
+            // Route::get('/food/edit/{food_id}', [FoodController::class, 'foodEdit'])->name('admin.food.edit');
+            // Route::put('/food/update/{food_id}', [FoodController::class, 'foodUpdate'])->name('admin.food.update');
+            // Route::get('/food/delete/{food_id}', [FoodController::class, 'foodDelete'])->name('admin.food.delete');
+            // Route::get('/food/search', [FoodController::class, 'foodSearch'])->name('admin.food.search');
            
-            //Decorations->
-            Route::get('/decoration/list', [DecorationController::class, 'decorationList'])->name('admin.decoration.list');
-            Route::get('/create/decoration', [DecorationController::class, 'createDecoration'])->name('admin.create.decoration');
-            Route::post('/decoration/store', [DecorationController::class, 'decorationStore'])->name('admin.decoration.store');
-            Route::get('/decoration/edit/{decoration_id}', [DecorationController::class, 'decorationEdit'])->name('admin.decoration.edit');
-            Route::put('/decoration/update/{decoration_id}', [DecorationController::class, 'decorationUpdate'])->name('admin.decoration.update');
-            Route::get('/decoration/delete/{decoration_id}', [DecorationController::class, 'decorationDelete'])->name('admin.decoration.delete');
-            Route::get('/decorations/search', [DecorationController::class, 'decorationSearch'])->name('admin.decoration.search');
+            // //Decorations->
+            // Route::get('/decoration/list', [DecorationController::class, 'decorationList'])->name('admin.decoration.list');
+            // Route::get('/create/decoration', [DecorationController::class, 'createDecoration'])->name('admin.create.decoration');
+            // Route::post('/decoration/store', [DecorationController::class, 'decorationStore'])->name('admin.decoration.store');
+            // Route::get('/decoration/edit/{decoration_id}', [DecorationController::class, 'decorationEdit'])->name('admin.decoration.edit');
+            // Route::put('/decoration/update/{decoration_id}', [DecorationController::class, 'decorationUpdate'])->name('admin.decoration.update');
+            // Route::get('/decoration/delete/{decoration_id}', [DecorationController::class, 'decorationDelete'])->name('admin.decoration.delete');
+            // Route::get('/decorations/search', [DecorationController::class, 'decorationSearch'])->name('admin.decoration.search');
             
-            //Packages service->       
-            Route::get('/package/service/list', [PackageServiceController::class, 'packageServiceList'])->name('admin.package.service.list');
-            Route::get('/package/service/event', [PackageServiceController::class, 'packageServiceEvent'])->name('admin.package.service.event');
-            Route::get('/package/service/create/{id}', [PackageServiceController::class, 'packageServiceCreate'])->name('admin.package.service.create');
-            Route::post('/package/service/store', [PackageServiceController::class, 'packageServiceStore'])->name('admin.package.service.store');
-            Route::get('/package/service/delete/{p_s_id}', [PackageServiceController::class, 'packageServiceDelete'])->name('admin.package.service.delete');
-            Route::get('/package/service/search', [PackageServiceController::class, 'packageServiceSearch'])->name('admin.package.service.search');
+            // //Packages service->       
+            // Route::get('/package/service/list', [PackageServiceController::class, 'packageServiceList'])->name('admin.package.service.list');
+            // Route::get('/package/service/event', [PackageServiceController::class, 'packageServiceEvent'])->name('admin.package.service.event');
+            // Route::get('/package/service/create/{id}', [PackageServiceController::class, 'packageServiceCreate'])->name('admin.package.service.create');
+            // Route::post('/package/service/store', [PackageServiceController::class, 'packageServiceStore'])->name('admin.package.service.store');
+            // Route::get('/package/service/delete/{p_s_id}', [PackageServiceController::class, 'packageServiceDelete'])->name('admin.package.service.delete');
+            // Route::get('/package/service/search', [PackageServiceController::class, 'packageServiceSearch'])->name('admin.package.service.search');
             
-            //Bookings-> 
-            Route::get('/booking/list', [BookingController::class, 'bookingList'])->name('admin.booking');
-            Route::get('/booking/accept/{id}', [BookingController::class, 'accept'])->name('admin.accept.booking');
-            Route::get('/booking/reject/{id}', [BookingController::class, 'reject'])->name('admin.reject.booking');
-            Route::get('/search/booking', [BookingController::class, 'search'])->name('admin.search.booking');
-            Route::get('/event-done/{id}', [BookingController::class, 'markEventDone'])->name('admin.event.done');
-            Route::post('/booking/auto-update-status/{id}', [BookingController::class, 'autoUpdateStatus']);
+            // //Bookings-> 
+            // Route::get('/booking/list', [BookingController::class, 'bookingList'])->name('admin.booking');
+            // Route::get('/booking/accept/{id}', [BookingController::class, 'accept'])->name('admin.accept.booking');
+            // Route::get('/booking/reject/{id}', [BookingController::class, 'reject'])->name('admin.reject.booking');
+            // Route::get('/search/booking', [BookingController::class, 'search'])->name('admin.search.booking');
+            // Route::get('/event-done/{id}', [BookingController::class, 'markEventDone'])->name('admin.event.done');
+            // Route::post('/booking/auto-update-status/{id}', [BookingController::class, 'autoUpdateStatus']);
             
             //Customize Foods->
             Route::get('/customize/food/list', [CustomizeFoodController::class, 'customizeFoodList'])->name('admin.customize.food.list');
@@ -189,7 +189,7 @@ use App\Models\Appointment;
             Route::get('/customize/download-receipt/{id}', [WebCustomizeBookingController::class, 'customizeDownloadReceipt'])->name('customize.download.receipt');
 
             // SSLCOMMERZ Start->
-            Route::post('/success', [SslCommerzPaymentController::class, 'success']);
+            Route::match(['get', 'post'], '/success', [SslCommerzPaymentController::class, 'success']);
             Route::post('/fail', [SslCommerzPaymentController::class, 'fail']);
             Route::post('/cancel', [SslCommerzPaymentController::class, 'cancel']);
             Route::post('/ipn', [SslCommerzPaymentController::class, 'ipn']);

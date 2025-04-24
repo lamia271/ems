@@ -115,7 +115,7 @@ class CustomizeFoodController extends Controller
     {
         $foods = CustomizeFood::find($food_id);
         $foods->delete();
-        notify()->success('Customize Food Deleted Successfully.');
+        notify()->success('Food Deleted Successfully.');
         return redirect()->back();
         
     }

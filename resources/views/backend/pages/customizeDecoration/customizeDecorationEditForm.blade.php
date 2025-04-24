@@ -1,13 +1,13 @@
 @extends('backend.master')
 @section('content')
 
-<h1>Edit Customize Decoration Item</h1>
+<h1>Edit Decoration Item</h1>
   
 <form action="{{route('admin.customize.decoration.update', $decorations->id)}}" method="post" enctype="multipart/form-data">                             
 @method('put')
 @csrf
   <div class="form-group">
-    <label for="">Customize Decoration Name</label>
+    <label for=""> Decoration Name</label>
     <input name="name" type="text" class="form-control" id="" value="{{$decorations->name}}" placeholder="">
   </div> 
 

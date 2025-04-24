@@ -12,11 +12,11 @@
         <li class="nav-item">
           <a class="nav-link" href="{{route('home.page')}}">Home<span></span></a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="{{route('all.events')}}">Packages<span></span></a>
-        </li>
+        </li> -->
         <li class="nav-item">
-          <a class="nav-link" href="{{route('all.customize.events')}}">Customize Booking<span></span></a>
+          <a class="nav-link" href="{{route('all.customize.events')}}">Booking<span></span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{route('sample.work')}}">Sample Work<span></span></a>

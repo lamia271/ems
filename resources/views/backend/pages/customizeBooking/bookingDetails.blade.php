@@ -54,7 +54,7 @@
 
 @section('content')
 
-<h1>Customize Booking Details</h1>
+<h1>Booking Details</h1>
 <button id="print" onclick="printlist()" class="btn btn-info">Print</button>
 <br>
 <br>

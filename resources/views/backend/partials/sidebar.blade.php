@@ -18,52 +18,52 @@
           Events
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="{{route('admin.package.list')}}">
+      <!-- <li class="nav-item">
+        <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="">
           <svg class="bi">
             <use xlink:href="#house-fill" />
           </svg>
           Packages
         </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="{{route('admin.food.list')}}">
+      </li> -->
+      <!-- <li class="nav-item">
+        <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="">
           <svg class="bi">
             <use xlink:href="#house-fill" />
           </svg>
           Foods
         </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="{{route('admin.decoration.list')}}">
+      </li> -->
+      <!-- <li class="nav-item">
+        <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="">
           <svg class="bi">
             <use xlink:href="#house-fill" />
           </svg>
           Decorations
         </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="{{route('admin.package.service.list')}}">
+      </li> -->
+      <!-- <li class="nav-item">
+        <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="">
           <svg class="bi">
             <use xlink:href="#house-fill" />
           </svg>
           Packages Service
         </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="{{route('admin.booking')}}">
+      </li> -->
+      <!-- <li class="nav-item">
+        <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="">
           <svg class="bi">
             <use xlink:href="#house-fill" />
           </svg>
           Bookings
         </a>
-      </li>
+      </li> -->
       <li class="nav-item">
         <a class="nav-link d-flex align-items-center gap-2 active" aria-current="page" href="{{route('admin.customize.food.list')}}">
           <svg class="bi">
             <use xlink:href="#house-fill" />
           </svg>
-          Customize Foods
+           Foods
         </a>
       </li>
       <li class="nav-item">
@@ -71,7 +71,7 @@
           <svg class="bi">
             <use xlink:href="#house-fill" />
           </svg>
-          Customize Decorations
+           Decorations
         </a>
       </li>
       <li class="nav-item">
@@ -79,7 +79,7 @@
           <svg class="bi">
             <use xlink:href="#house-fill" />
           </svg>
-          Customize Bookings
+           Bookings
         </a>
       </li>
       <li>

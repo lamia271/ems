@@ -2,9 +2,9 @@
 
 @section('content')
 
-<h1>Customize Decorations</h1>
+<h1> Decorations</h1>
 
-<a href="{{route('admin.create.customize.decoration')}}" class="btn btn-success">Create Customize Decoration</a>
+<a href="{{route('admin.create.customize.decoration')}}" class="btn btn-success">Create  Decoration</a>
 <br>
 <br>
 <form action="{{ route('admin.customize.decoration.search') }}" method="GET" class="mb-3">

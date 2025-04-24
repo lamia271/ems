@@ -35,11 +35,11 @@
                             <a href="{{ route('edit.profile') }}" class="btn btn-main-md">Update Profile</a>
                         </li>
                     </ul>
-                    <ul class="list-inline">
+                    <!-- <ul class="list-inline">
                         <li class="list-inline-item">
                             <a href="{{ route('booking.details') }}" class="btn btn-main-md">Booking Details</a>
                         </li>
-                    </ul>
+                    </ul> -->
                     <ul class="list-inline">
                         <li class="list-inline-item">
                             <a href="{{ route('appointment.details') }}" class="btn btn-main-md">Appointment Details</a>
@@ -47,7 +47,7 @@
                     </ul>
                     <ul class="list-inline">
                         <li class="list-inline-item">
-                            <a href="{{ route('customize.booking.details') }}" class="btn btn-main-md">Customize Booking Details</a>
+                            <a href="{{ route('customize.booking.details') }}" class="btn btn-main-md">Booking Details</a>
                         </li>
                     </ul>
                 </div>

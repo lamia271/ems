@@ -1,7 +1,7 @@
 @extends('backend.master')
 @section('content')
 
-<h1>Create Customize Decoration Item</h1>
+<h1>Create Decoration Item</h1>
 
 
 <form action="{{route('admin.customize.decoration.store')}}" method="post" enctype="multipart/form-data">

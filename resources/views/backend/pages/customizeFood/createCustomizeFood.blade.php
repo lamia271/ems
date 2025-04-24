@@ -1,7 +1,7 @@
 @extends('backend.master')
 @section('content')
 
-<h1>Create Customize Food Item</h1>
+<h1>Create Food Item</h1>
 
 
 <form action="{{route('admin.customize.food.store')}}" method="post" enctype="multipart/form-data">

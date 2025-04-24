@@ -1,13 +1,13 @@
 @extends('backend.master')
 @section('content')
 
-<h1>Edit Customize Food Item</h1>
+<h1>Edit Food Item</h1>
   
 <form action="{{route('admin.customize.food.update', $foods->id)}}" method="post" enctype="multipart/form-data">                             
 @method('put')
 @csrf
   <div class="form-group">
-    <label for="">Customize Food Name</label>
+    <label for=""> Food Name</label>
     <input name="name" type="text" class="form-control" id="" value="{{$foods->name}}" placeholder="">
   </div> 
 

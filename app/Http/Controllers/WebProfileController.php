@@ -102,8 +102,8 @@ class WebProfileController extends Controller
     {
 
         $booking = Booking::find($id);
-        $this->payment($booking);
-        return redirect()->route('view.profile');
+        return $this->payment($booking);
+        // return redirect()->route('view.profile');
     }
 
     public function payment($payment)
@@ -141,6 +141,10 @@ class WebProfileController extends Controller
         $post_data['product_category'] = "Goods";
         $post_data['product_profile'] = "physical-goods";
 
+        $post_data['success_url'] = url('/success');
+        $post_data['fail_url'] = url('/fail');
+        $post_data['cancel_url'] = url('/cancel');
+
         # OPTIONAL PARAMETERS
         $post_data['value_a'] = "ref001";
         $post_data['value_b'] = "ref002";
@@ -165,8 +169,8 @@ class WebProfileController extends Controller
     {
 
         $booking = CustomizeBooking::find($id);
-        $this->customizePayment($booking);
-        return redirect()->route('view.profile');
+        return $this->customizePayment($booking);
+        // return redirect()->route('view.profile');
     }
 
     public function customizePayment($payment)
@@ -205,6 +209,10 @@ class WebProfileController extends Controller
         $post_data['product_category'] = "Goods";
         $post_data['product_profile'] = "physical-goods";
 
+        $post_data['success_url'] = url('/success');
+        $post_data['fail_url'] = url('/fail');
+        $post_data['cancel_url'] = url('/cancel');
+        
         # OPTIONAL PARAMETERS
         $post_data['value_a'] = "ref001";
         $post_data['value_b'] = "ref002";

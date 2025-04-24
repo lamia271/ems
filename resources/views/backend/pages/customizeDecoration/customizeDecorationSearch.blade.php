@@ -2,7 +2,7 @@
 
 @section('content')
 
-<h1>Customize Decoration</h1>
+<h1> Decoration</h1>
 <br>
 <!-- Search form -->
 <form action="{{ route('admin.customize.decoration.search') }}" method="GET" class="mb-3">

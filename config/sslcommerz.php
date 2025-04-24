@@ -6,7 +6,7 @@ $apiDomain = env('SSLCZ_TESTMODE') ? "https://sandbox.sslcommerz.com" : "https:/
 return [
 	'apiCredentials' => [
 		'store_id' => env("SSLCZ_STORE_ID"),
-		'store_password' => env("SSLCZ_STORE_PASSWORD"),
+		'store_password' => env("SSLCZ_STORE_PASSWD"),
 	],
 	'apiUrl' => [
 		'make_payment' => "/gwprocess/v4/api.php",

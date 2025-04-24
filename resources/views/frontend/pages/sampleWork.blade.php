@@ -15,7 +15,7 @@
 			<div class="col-lg-3 col-md-4 col-sm-6">
                <img style="width: 300px;height:200px;" src="{{url('images/holud5.jpg')}}" alt="" class="img-fluid">
   
-            </div>
+            </div> 
             <div class="col-lg-3 col-md-4 col-sm-6">
                 <img style="width: 300px;height:200px;" src="{{url('images/birthday1.jpg')}}" alt="" class="img-fluid">
   
@@ -25,7 +25,7 @@
   
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <img style="width: 300px;height:200px;" src="{{url('images/images (7).jpg')}}" alt="" class="img-fluid">
+                <img style="width: 300px;height:200px;" src="{{url('images/images.jpg')}}" alt="" class="img-fluid">
   
             </div>
 		
